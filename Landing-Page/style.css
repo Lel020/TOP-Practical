@@ -1,0 +1,150 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+}
+
+/* Styles for Navigation Bar */
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(31, 41, 55);
+}
+
+#header-logo {
+  margin-left: 150px;
+  height: 75px;
+  width: 100px;
+  border-radius: 10px;
+}
+
+.navbar-container {
+  display: flex;
+  align-items: center;
+  margin-right: 150px;
+}
+
+#header-link-one,
+#header-link-two,
+#header-link-three {
+  margin-right: 5px;
+  margin-left: 5px;
+  text-decoration: none;
+  font-size: medium;
+  color: white;
+  border: 1px #a9d7f6 solid;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+/* Style for introduction-page */
+.introduction-page-container {
+  background-color: rgb(31, 41, 55);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 500px;
+}
+
+.introduction-info {
+  display: block;
+  align-items: center;
+  margin-left: 150px;
+  margin-top: -50px;
+}
+
+#header-one,
+#paragraph-one {
+  color: whitesmoke;
+  text-align: left;
+}
+
+#header-one {
+  font-family: Andale Mono, monospace;
+}
+
+#paragraph-one {
+  margin-top: -10px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+#sign-up {
+  width: 125px;
+  height: 50px;
+  text-decoration: none;
+  background-color: #5454c5;
+  color: whitesmoke;
+  border: none;
+  border-radius: 5px;
+  font-family: Andale Mono, monospace;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.placeholder-image {
+  margin-right: 150px;
+  width: 750px;
+  height: 300px;
+  text-align: center;
+  line-height: 300px;
+  color: white;
+  background-color: gray;
+  border-radius: 5px;
+  font-size: 15px;
+  margin-top: -50px;
+}
+
+/* Style for middle part 1 */
+.middle-page-container {
+  height: 500px;
+  display: block;
+  border: 1px red solid;
+}
+
+.middle-page-heading {
+  margin-top: 75px;
+  font-family: Andale Mono, monospace;
+  text-align: center;
+  color: rgb(31, 41, 55);
+}
+
+#header-two {
+  font-size: 30px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+}
+
+.box-container {
+  height: 428px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box-1,
+.box-2,
+.box-3,
+.box-4 {
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+  margin-right: 50px;
+  margin-top: -250px;
+  border-radius: 15px;
+  border: 3px #7290dd solid;
+}
+
+.text-under-box-1,
+.text-under-box-2,
+.text-under-box-3,
+.text-under-box-4 {
+  text-align: center;
+  margin-top: 165px;
+  font-family: Andale Mono, monospace;
+}
+
+/* Style for quote section */
+.quote-box-container {
+  height: 500px;
+  border: 5px gray solid;
+}
