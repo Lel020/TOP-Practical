@@ -222,3 +222,13 @@ body {
   font-weight: bold;
   font-size: 15px;
 }
+
+/* Footer */
+.footer-container{
+  background-color: rgb(31, 41, 55);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  color: whitesmoke;
+}
