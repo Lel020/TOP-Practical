@@ -98,7 +98,6 @@ body {
 .middle-page-container {
   height: 500px;
   display: block;
-  border: 1px red solid;
 }
 
 .middle-page-heading {
@@ -145,6 +144,52 @@ body {
 
 /* Style for quote section */
 .quote-box-container {
+  display: block;
   height: 500px;
-  border: 5px gray solid;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: #e5e7eb;
+}
+
+.quote{
+  padding-top: 75px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 36px;
+  font-style: italic;
+  width: 750px;
+  height: 250px;
+  font-weight: lighter;
+}
+
+.quote-author{
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 25px;
+  width: 750px;
+  height: 75px;
+  text-align: end;
+  font-weight: bold;
+}
+
+/* Style for sign up section */
+.sign-up-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 350px;
+  border: 1px red solid;
+}
+
+.call-to-action-container{
+  display: flex;
+  align-items: center;
+  border: 1px black solid;
+}
+
+.call-to-action{
+  border: 1px yellow solid;
+}
+
+.sign-up-button{
+  border: 1px green solid;
 }
